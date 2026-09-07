@@ -26,6 +26,12 @@ a { color: inherit; }
 .brand { font-weight: 700; text-decoration: none; letter-spacing: -.04em; font-size: 1.2rem; }
 .brand span { color: var(--accent-deep); }
 .site-nav { display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-end; }
+.site-nav a[href='education.html'] { order: 1; }
+.site-nav a[href='projects.html'] { order: 2; }
+.site-nav a[href='experience.html'] { order: 3; }
+.site-nav a[href='publications.html'] { order: 4; }
+.site-nav a[href='news.html'] { order: 5; }
+.site-nav a[href='volunteering.html'] { order: 6; }
 .site-nav a { color: var(--muted); font-size: .84rem; text-decoration: none; }
 .site-nav a:hover, .site-nav a[aria-current='page'] { color: var(--ink); }
 .eyebrow, .label { font: 500 .72rem 'DM Mono', monospace; letter-spacing: .1em; text-transform: uppercase; color: var(--accent-deep); }
